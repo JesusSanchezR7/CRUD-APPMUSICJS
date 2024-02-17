@@ -1,0 +1,24 @@
+-- Crear la base de datos
+CREATE DATABASE musica_app;
+
+-- Seleccionar la base de datos Musica
+USE musica_app;
+
+
+-- Crear la tabla de canciones
+CREATE TABLE canciones (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL,
+    artista VARCHAR(255) NOT NULL,
+    album VARCHAR(255)
+);
+
+select * from canciones where id = 1;
+
+INSERT INTO canciones (titulo, artista, album) VALUES
+('Shake It Off', 'Taylor Swift', '1989'),
+('You Belong with Me', 'Taylor Swift', 'Fearless'),
+('Cardigan', 'Taylor Swift', 'Folklore'),
+('Cruel Summer', 'Taylor Swift', 'Lover'),
+('Enchanted', 'Taylor Swift', 'Speak Now');
+
