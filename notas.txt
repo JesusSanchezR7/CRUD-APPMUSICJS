@@ -1,0 +1,5 @@
+CORRER EL CLIENTE = npx expo start 
+
+CORRER EL SERVIDOR  =  yarn dev 
+
+HOLA SOY EL CREADOR Jesus Mannuel Sanchez Rendon 
